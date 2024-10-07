@@ -6,7 +6,7 @@ This project was an intro to generative AI and using neural network to generate 
 
 <img width="180" alt="Screenshot 2024-10-07 at 1 31 31 PM" src="https://github.com/user-attachments/assets/c117e1fd-2917-407b-9356-052085136c30">
 
-* In this example the words: "wait", "believe", "imagine"; are the words that my model produces when the sentence is "Yes, I can't..."
+* In this example the words: "wait", "believe", "imagine"; are the words that my model produces when the sentence is "Yes, I can't"
 
 
 ## Dataset & Inspiration
