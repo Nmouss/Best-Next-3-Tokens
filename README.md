@@ -13,5 +13,5 @@ This project was an intro to generative AI and using neural network to generate 
 
 I trained my model on nearly 30,000 sentences from tedtalks. I broke each tedtalk into sentences, tokenized the sentences (Mapped out every word to a value) and then ran it through the LSTM model. I used sequential model where I used keras by tensorflow to easily create my layers. I trained the model until I noticed the validation loss was staggering or increasing.
 
-DATASET: https://www.kaggle.com/datasets/miguelcorraljr/ted-ultimate-dataset
-Inspiration: https://f-a.nz/dev/develop-your-own-llm-like-chatgpt-with-tensorflow-and-keras/
+* DATASET: https://www.kaggle.com/datasets/miguelcorraljr/ted-ultimate-dataset
+* Inspiration: https://f-a.nz/dev/develop-your-own-llm-like-chatgpt-with-tensorflow-and-keras/
