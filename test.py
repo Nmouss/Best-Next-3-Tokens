@@ -8,7 +8,7 @@ with open('tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Load the trained model
-model = load_model("next_token_predictor.keras")
+model = load_model("PATH/TO/YOUR/next_token_predictor.keras")
 
 '''# Example sentence to predict the next token
 input_text = "This is the first thing that I think you can be"
