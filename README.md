@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This project was an intro to generative AI and using neural network to generate the next best 3 tokens in a sentence. It gives a suggestion just like when you are texting someone on Imessage. This project uses 2 LSTM (Long Short term memory) layers that consists of 128 neurons (per layer). The last layer is a softmax activation function which gives out predictions of the best tokens since its technically a classification model and not a binay like sigmoid. 
+This project was an intro to generative AI and using neural network to generate the next best 3 tokens in a sentence. It gives a suggestion just like when you are texting someone on Imessage. This project uses 2 LSTM (Long Short term memory) layers that consists of 128 neurons (per layer). The last layer is a softmax activation function which gives out predictions of the best tokens since its technically a classification model and not a binary like sigmoid. 
 
 <img width="180" alt="Screenshot 2024-10-07 at 1 31 31 PM" src="https://github.com/user-attachments/assets/c117e1fd-2917-407b-9356-052085136c30">
 
