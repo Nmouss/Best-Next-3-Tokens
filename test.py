@@ -60,8 +60,8 @@ for _ in range(num_tokens_to_generate):
     predicted_probabilities2 = model.predict(padded_input)[0] # predict the next token with the highest probability (CAN DELETE)
     
     predicted_token_id = sample_with_temperature(predicted_probabilities, temperature=temperature) # Sample the next token with randomness
-    predicted_token_id1 = sample_with_temperature(predicted_probabilities1, temperature=temperature + 0.2) # Sample the next token with randomness (CAN DELETE)
-    predicted_token_id2 = sample_with_temperature(predicted_probabilities2, temperature=temperature - 0.2) # Sample the next token with randomness (CAN DELETE)
+    predicted_token_id1 = sample_with_temperature(predicted_probabilities1, temperature=temperature + 0.2)
+    predicted_token_id2 = sample_with_temperature(predicted_probabilities2, temperature=temperature - 0.2)
 
     
     # Convert the token ID back to word
