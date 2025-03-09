@@ -1,6 +1,6 @@
 import numpy as np 
 import matplotlib.pyplot as plt
-text_file = "/Users/nabilmouss/Downloads/formatted_lyrics_1989.txt"
+text_file = "/PATH/TO/YOUR/DIRECTORY/formatted_lyrics_1989.txt"
 file = open(text_file, "r")
 words = file.read()
 file.close()
